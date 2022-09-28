@@ -2,7 +2,7 @@
 <!-- ========================Bagian CLI======================== -->
 &nbsp;
 ## Unix Command Line
-___
+
 > #### Command Line Interface & Shell
 > &nbsp;&nbsp;&nbsp;&nbsp;CLI atau ***Command Line Interface*** adalah antarmuka bagi pengguna untuk mengirim dan menerima perintah dalam bentuk baris teks. ***Shell*** merupakan *tools* atau alat penghubung antar *user* dengan sistem operasi.  Seperti layaknya translator/penerjemah bahasa untuk berinteraksi dengan sistem operasi pada komputer, umummnya shell menyediakan perintah-perintah yang berbasis text yang berjalan pada console terminal yang ada di CLI.
 
@@ -47,8 +47,6 @@ Shell command yang sering digunakan:
 &nbsp;
 
 ## Git & GitHub
-
----
 
 > #### Git dan Github
 >
@@ -123,8 +121,6 @@ secara default git repo lokal kita akan memiliki remote origin apa bila sudah di
 &nbsp;
 
 ## HTML
-
----
 
 #### Peran HTML
 
@@ -305,8 +301,6 @@ hasil preview:
 &nbsp;
 
 ## CSS
-
----
 
 #### Peran CSS
 
