@@ -1,2 +1,0 @@
-
-# Rangkuman Week-1
