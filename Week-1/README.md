@@ -195,6 +195,7 @@ contoh:
 #### Tag list
 
 - **ol (ordered list)**
+    
   code:
   
     ![ol dan li](assets/images/ol-dan-li.png "how to use ol and li")
@@ -204,6 +205,7 @@ contoh:
   ![result ol dan li](assets/images/ol-result.png "result using ol and li")
 
 - **ul (unordered list)**
+    
   code:
     
   ![ol dan li](assets/images/ul-dan-li.png "how to use ul and li")
@@ -213,6 +215,7 @@ contoh:
   ![result ol dan li](assets/images/ul-result.png "result using ul and li")
 
 - **dl (definition list)**
+    
   code:
     
   ![ol dan li](assets/images/definition-list.png "how to use dl, dt and dd")
@@ -386,7 +389,7 @@ hasil preview:
 > Arti dari code diatas, css tolong berikan warna **_merah_** pada tulisan yang ada di tag h1, dan background-color **_lightgreen_**, kemudian posisikan dia di **_tengah-tengah_**.
 >
 > hasilnya akan seperti ini:
-> ![hasil coding css multi declaration](/assets/images/css-multi-Declaration.png "hasil dari code css")
+> ![hasil coding css multi declaration](assets/images/css-multi-Declaration.png "hasil dari code css")
 
 #### CSS Flex box
 
