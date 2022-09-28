@@ -20,7 +20,9 @@ Contoh file system pada linux:
 
 ![show linux directory using GUI](assets/images/linux-filesystem.png "file-system")
 
-<div style="text-align: center"><img src="assets/images/terminal-file-system.png" alt="drawing" width="400" text-align="center"/></div>
+<div style="text-align: center">
+    <img src="assets/images/terminal-file-system.png" alt="drawing" width="400" text-align="center"/>
+</div>
 
 &nbsp;
 
@@ -115,6 +117,7 @@ Shell command yang sering digunakan:
 &nbsp;&nbsp;push perubahan menggunakan remote origin:
 
 ![push new modify](assets/images/push-origin.png)
+
 secara default git repo lokal kita akan memiliki remote origin apa bila sudah di clone terlebih dahulu dari cloud provider **_GitHub_**.
 
 <!-- ========================Bagian HTML======================== -->
@@ -193,20 +196,29 @@ contoh:
 
 - **ol (ordered list)**
   code:
-  ![ol dan li](assets/images/ol-dan-li.png "how to use ol and li")
+  
+    ![ol dan li](assets/images/ol-dan-li.png "how to use ol and li")
+    
   result:
+    
   ![result ol dan li](assets/images/ol-result.png "result using ol and li")
 
 - **ul (unordered list)**
   code:
+    
   ![ol dan li](assets/images/ul-dan-li.png "how to use ul and li")
+    
   result:
+    
   ![result ol dan li](assets/images/ul-result.png "result using ul and li")
 
 - **dl (definition list)**
   code:
+    
   ![ol dan li](assets/images/definition-list.png "how to use dl, dt and dd")
+    
   result:
+    
   ![result ol dan li](assets/images/dl-result.png "result using dl, dt and dd")
 
 #### Program Todo List HTML sederhana
