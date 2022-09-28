@@ -1,6 +1,7 @@
 <div style="text-align: center"><h1>Rangkuman Week 1</h1></div>
 <!-- ========================Bagian CLI======================== -->
 &nbsp;
+
 ## Unix Command Line
 
 > #### Command Line Interface & Shell
@@ -17,7 +18,7 @@
 &nbsp;
 Contoh file system pada linux:
 
-![show linux directory using GUI](/assets/images/linux-filesystem.png)
+![show linux directory using GUI](/assets/images/linux-filesystem.png "file-system")
 
 <div style="text-align: center"><img src="/assets/images/terminal-file-system.png" alt="drawing" width="400" text-align="center"/></div>
 
