@@ -5,7 +5,8 @@
 ## Unix Command Line
 
 > #### Command Line Interface & Shell
-> &nbsp;&nbsp;&nbsp;&nbsp;CLI atau ***Command Line Interface*** adalah antarmuka bagi pengguna untuk mengirim dan menerima perintah dalam bentuk baris teks. ***Shell*** merupakan *tools* atau alat penghubung antar *user* dengan sistem operasi.  Seperti layaknya translator/penerjemah bahasa untuk berinteraksi dengan sistem operasi pada komputer, umummnya shell menyediakan perintah-perintah yang berbasis text yang berjalan pada console terminal yang ada di CLI.
+>
+> &nbsp;&nbsp;&nbsp;&nbsp;CLI atau **_Command Line Interface_** adalah antarmuka bagi pengguna untuk mengirim dan menerima perintah dalam bentuk baris teks. **_Shell_** merupakan _tools_ atau alat penghubung antar _user_ dengan sistem operasi. Seperti layaknya translator/penerjemah bahasa untuk berinteraksi dengan sistem operasi pada komputer, umummnya shell menyediakan perintah-perintah yang berbasis text yang berjalan pada console terminal yang ada di CLI.
 
 &nbsp;
 
@@ -195,33 +196,29 @@ contoh:
 #### Tag list
 
 - **ol (ordered list)**
-    
+
   code:
-  
-    ![ol dan li](assets/images/ol-dan-li.png "how to use ol and li")
-    
+
+  ![ol dan li](assets/images/ol-dan-li.png "how to use ol and li")
+
   result:
-    
+
   ![result ol dan li](assets/images/ol-result.png "result using ol and li")
 
 - **ul (unordered list)**
-    
+
   code:
-    
+
   ![ol dan li](assets/images/ul-dan-li.png "how to use ul and li")
-    
+
   result:
-    
+
   ![result ol dan li](assets/images/ul-result.png "result using ul and li")
 
 - **dl (definition list)**
-    
   code:
-    
   ![ol dan li](assets/images/definition-list.png "how to use dl, dt and dd")
-    
   result:
-    
   ![result ol dan li](assets/images/dl-result.png "result using dl, dt and dd")
 
 #### Program Todo List HTML sederhana
@@ -514,4 +511,62 @@ hasil preview:
 > } else {
 >   console.info("lulus");
 > }
+> ```
+
+> #### Pengkondisian
+>
+> &nbsp;&nbsp;&nbsp;&nbsp;Pengkondisian erat kaitanya dengan type data boolean, true or false contoh penggunaannya:
+>
+> ```
+> if (kondisi){
+>   printah true
+> }else {
+>   printah false
+> }
+> ```
+>
+> contoh pengkondisian menggunakan JavaScript:
+>
+> ```js
+> let hewan = "cat";
+> if (hewan == "cat") {
+>   console.info("meaw");
+> } else if (hewan == "cow") {
+>   console.info("mooo");
+> } else {
+>   console.info("hufff");
+> }
+> ```
+
+> #### Perulangan
+>
+> &nbsp;&nbsp;&nbsp;&nbsp;Perulangan bisa dilakukan dengan beberapa cara, berikut cara cara melakukan perulangan dengan menggunakan:
+>
+> - for loop
+>   - for in
+>   - for of
+>   - for each
+> - while loop
+> - do while
+>
+> salah satu penggunaan contoh looping
+>
+> ```
+> for (deklarasi;kondisi;increment){
+>   printah
+> }
+> ```
+>
+> ```js
+> for (let i = 0; i < 5; i++) {
+>   console.info("hallo ke - " + i);
+> }
+> /*
+> outpunya
+> hallo ke - 0
+> hallo ke - 1
+> hallo ke - 2
+> hallo ke - 3
+> hallo ke - 4
+> */
 > ```
