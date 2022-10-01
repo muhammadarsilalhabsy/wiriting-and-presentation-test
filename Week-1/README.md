@@ -216,9 +216,13 @@ contoh:
   ![result ol dan li](assets/images/ul-result.png "result using ul and li")
 
 - **dl (definition list)**
+
   code:
+  
   ![ol dan li](assets/images/definition-list.png "how to use dl, dt and dd")
+  
   result:
+  
   ![result ol dan li](assets/images/dl-result.png "result using dl, dt and dd")
 
 #### Program Todo List HTML sederhana
@@ -252,6 +256,7 @@ contoh:
 ```
 
 hasil preview:
+
 ![program todolist sederhana](assets/images/todo.png "program todolist makanan favorite")
 
 #### Semantic HTML
@@ -307,6 +312,7 @@ hasil preview:
 ```
 
 hasil preview:
+
 ![program menggunakan semantik](assets/images/semantik-tag.png "program tag semantik")
 
 <!-- ========================Bagian CSS======================== -->
@@ -386,6 +392,7 @@ hasil preview:
 > Arti dari code diatas, css tolong berikan warna **_merah_** pada tulisan yang ada di tag h1, dan background-color **_lightgreen_**, kemudian posisikan dia di **_tengah-tengah_**.
 >
 > hasilnya akan seperti ini:
+>
 > ![hasil coding css multi declaration](assets/images/css-multi-Declaration.png "hasil dari code css")
 
 #### CSS Flex box
@@ -437,6 +444,7 @@ hasil preview:
 > ```
 >
 > hasilnya akan seperti ini:
+>
 > ![hasil coding css multi declaration](assets/images/flex-box.png "hasil dari code css")
 
 <!-- ========================Bagian CSS======================== -->
