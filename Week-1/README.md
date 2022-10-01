@@ -4,13 +4,13 @@
 
 ## Unix Command Line
 
-> #### Command Line Interface & Shell
+#### Command Line Interface & Shell
 >
 > &nbsp;&nbsp;&nbsp;&nbsp;CLI atau **_Command Line Interface_** adalah antarmuka bagi pengguna untuk mengirim dan menerima perintah dalam bentuk baris teks. **_Shell_** merupakan _tools_ atau alat penghubung antar _user_ dengan sistem operasi. Seperti layaknya translator/penerjemah bahasa untuk berinteraksi dengan sistem operasi pada komputer, umummnya shell menyediakan perintah-perintah yang berbasis text yang berjalan pada console terminal yang ada di CLI.
 
 &nbsp;
 
-> #### File System
+#### File System
 >
 > &nbsp;&nbsp;&nbsp;&nbsp;**_File System_** adalah bentuk Struktur direktori didalam komputer kita. Pada setiap Sistem operasi memiliki cara yang berbeda dalam melakukan manajemen direktorinya.
 
@@ -52,7 +52,7 @@ Shell command yang sering digunakan:
 
 ## Git & GitHub
 
-> #### Git dan Github
+#### Git dan Github
 >
 > &nbsp;&nbsp;&nbsp;&nbsp;Git adalah _software_ yang bertugas menyimpan catatan perubahan pada seluruh file atau _repository_ dalam suatu project. Sedangkan GitHub adalah situs web yang menyediakan layanan _cloud_ yang mengizinkan pengguna untuk menyimpan, mengolah dan mengembangkan code yang mereka miliki baik secara individu maupun berkelompok.
 >
@@ -60,7 +60,7 @@ Shell command yang sering digunakan:
 
 &nbsp;
 
-> #### Kenapa Git dan GiHub wajib digunakan?
+#### Kenapa Git dan GiHub wajib digunakan?
 >
 > &nbsp;&nbsp;&nbsp;&nbsp;Git dan GitHub adalah tools yang wajib digunakan oleh seorang perogrammer, dikarenakan git dan github dapat melakukan manajemen penyimpanan catatan perubahan dengan baik. Sesorang programmer bisa melihat kapan dan siapa saja yang melakukan perubahan baik yang dilakukan dirinya sendiri maupun orang lain.
 
@@ -453,7 +453,7 @@ hasil preview:
 
 ## Algoritma
 
-> #### Algortima dan Data Structures
+#### Algortima dan Data Structures
 >
 > &nbsp;&nbsp;&nbsp;&nbsp;Algortma adalah langkah-langkah yang dirangkai secara berurutan dengan tujuan menyelesaikan masalah pemograman komputer. Sedangkan Data Structures adalah format khusus untuk mengatur, memproses, mengambil, dan menyimpan data.
 > &nbsp;&nbsp;&nbsp;&nbsp;Manfaat penggunaan algoritma bagi seorang programmer adalah mengasah cara berpikir dan analisis menjadi lebih kuat, sedangkan manfaat dari data structur adalah untuk menyimpan dan mengatur data menjadi lebih efisien, rapi dan terorganisir
@@ -462,15 +462,15 @@ hasil preview:
 
 1. contoh pembuatan algoritma menggunakan pseudocode mencari string pada sebuah array campuran
 
-```
-  start:
-    loop
-      if (array == "abcd")
-        return true
-      else:
-        return false
-  end:
-```
+>```
+>  start:
+>    loop
+>      if (array == "abcd")
+>        return true
+>      else:
+>        return false
+>  end:
+>```
 
 2. contoh pembuatan algoritma dengan menggunakan bahasa pemogramman JavaScript:
 
@@ -495,11 +495,11 @@ hasil preview:
 
 ## JavaScript Dasar
 
-> #### Peran
+#### Peran
 >
 > &nbsp;&nbsp;&nbsp;&nbsp;JavaScript atau JS adalah salah satu bahasa pemograman yang dibuat khusus untuk web development, fungsi JS sendiri adalah merangkai HTML dan CSS menjadi lebih menarik. JavaScript bisa di ibaratkan seperti syaraf-syaraf atau otak pengerak yang mengerakan tubuh manusia, yang mampu mengerakan struktur pada tubuh manusia seperti mengerakan pergelangan tangan, membentuk raut wajah, berlari dan sebagainya.
 
-> #### Tipe data JavaScript
+#### Tipe data JavaScript
 >
 > - String
 > - Integer atau Number
@@ -509,7 +509,7 @@ hasil preview:
 >
 > &nbsp;&nbsp;&nbsp;&nbsp;Tipe data memiliki fungsi dan perannya masing masin. sebagai contoh tipe data number (1,2,3 ... dst) itu disebut number, Boolean adalah tipe data yang mengembalikan nilai kebenaran "true" atau "false"
 
-> #### Syntax JavaScript
+#### Syntax JavaScript
 >
 > ```js
 > const scoore = 3.9;
@@ -546,7 +546,7 @@ hasil preview:
 > }
 > ```
 
-> #### Perulangan
+#### Perulangan
 >
 > &nbsp;&nbsp;&nbsp;&nbsp;Perulangan bisa dilakukan dengan beberapa cara, berikut cara cara melakukan perulangan dengan menggunakan:
 >
