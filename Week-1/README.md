@@ -1,4 +1,6 @@
-<div style="text-align: center"><h1>Rangkuman Week 1</h1></div>
+<div style="text-align: center">
+    <h1>Rangkuman Week 1</h1>
+</div>
 <!-- ========================Bagian CLI======================== -->
 &nbsp;
 
