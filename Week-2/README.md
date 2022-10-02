@@ -78,3 +78,80 @@
 > ![max-sqrt-gambar](assets/images/max-and-sqrt.png "max-sqrt")
 >
 > &nbsp;&nbsp;&nbsp;&nbsp;Method `.isNaN()` akan mengecek apakah argument yang dikirimkan bukanlah number, kalau yang dikirimkan sebuah angka ataupun boolean itu akan mengembalikan `false`. sebaliknya apabila mengirimkan sebuah string value itu akan mengembalikan `true`
+
+&nbsp;
+
+## DOM
+
+#### Mencari Element
+
+> &nbsp;&nbsp;&nbsp;&nbsp;Ada beberapa cara untuk mencari element diantaranya menggunakan function:
+>
+> - `document.getElementById(); // mengambil id saja`
+> - `document.getElementsByClassName() // mengambil class, dan mengembalikan HTML collection`
+> - `document.getElementsByTagName() mengambil tag html dan mengembalikan HTML collection`
+> - `document.querySelector() // sama seperti selector css akan mengembalikan sebuah element`
+> - `document.querySelectorAll() // sama seperti selector css, dan mengembalikan Node List`
+
+#### Mengubah Content Element
+
+> &nbsp;&nbsp;&nbsp;&nbsp;Ada beberapa cara untuk mengubah content element diantaranya menggunakan property:
+>
+> - `element.innerHtml = "Arsil" atau "<p>Alhabsy</p>; // bisa digunakan untuk mengubah content dan juga menambahkan tag html baru`
+> - `element.textContent = "Muhammad Arsil Alhabsy"; // hanya bisa mengubah text pada tag html, tidak sama seperti innerHtml yang bisa mengubah tag nya juga`
+> - `element.innerText = "Muhammad Arsil Alhabsy"; // mengembalikan kontext text dari satu element`
+>
+> ! Perbedaan antara textContent vs innerText adalah, text content akan mengembalikan tag seperti contoh `<p>Muhammad Arsil Alhabsy</p>` sedangkan innerText hanya mengembalikan text saja seperti contoh "`Muhammad Arsil Alhabsy`"
+
+#### Membuat Element
+
+> &nbsp;&nbsp;&nbsp;&nbsp;Ada beberapa step yang harus dilakukan untuk membuat element baru di html menggunakan DOM:
+>
+> 1. membuat element
+> 2. menambahkan content dan menambahkan content untuk element yang dibuat sebelumnya (opsional)
+> 3. menambahkan context ke parent elementnya
+>
+> berikut alur codingannya:
+>
+> ![create-an-DOMElement](assets/images/create-an-ementDOM.png "create dom element");
+
+#### Set dan Get attribute pada Element HTML
+
+> 1. Set
+>
+> `element.setAttribute("class","human");`
+>
+> artinya memberikan atribute `class` dengan `value` human pada element. hasilnya akan seperti ini
+>
+> ```html
+> <p class="human">Muhammad Arsil Alhabsy</p>
+> ```
+>
+> 2. Get
+>
+> `element.getAttribute("class");`
+>
+> artinya ambil atribute `class` yang ada pada element html
+>
+> code:
+>
+> ![get-attribute](assets/images/get-attribute.png "get-class")
+
+#### Memberikan style menggunakan DOM
+
+> &nbsp;&nbsp;&nbsp;&nbsp;berikut salahsatu cara memberikan style pada element dengan menggunakan DOM
+>
+> ```js
+> element.sytel.backgroundColor = "lightgreen";
+> ```
+>
+> hasil:
+>
+> ![style-backgroundColor](assets/images/paragraf1-style-dom.png)
+>
+> &nbsp;&nbsp;&nbsp;&nbsp;Ada masih banyak lagi property css yang bisa ditambahkan mengunakan dom berikut beberapa penulisan codenya:
+>
+> - `element.style.height = 20px; // menambahkan tinggi`
+> - `element.style.wight = 20px; // menambahkan lebar`
+> - `element.style.padding = 20px; // menambahkan padding`
+> - dan masih banyak lagi
