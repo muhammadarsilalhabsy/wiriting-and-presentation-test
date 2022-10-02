@@ -83,6 +83,8 @@
 
 ## DOM
 
+> &nbsp;&nbsp;&nbsp;&nbsp;Document Object Model (DOM) adalah interface lintas platform yang berarti bukan dikhususkan untuk bahasa peogramman JavaScript saja. DOM memperlakukan element HTML atau XML layaknya stuructur pohon dimana setiap node adalah object sebagai perwakilan dari document.
+
 #### Mencari Element
 
 > &nbsp;&nbsp;&nbsp;&nbsp;Ada beberapa cara untuk mencari element diantaranya menggunakan function:
@@ -155,3 +157,60 @@
 > - `element.style.wight = 20px; // menambahkan lebar`
 > - `element.style.padding = 20px; // menambahkan padding`
 > - dan masih banyak lagi
+
+## DOM Event
+
+> &nbsp;&nbsp;&nbsp;&nbsp;Event pada DOM bertugas menagkap sebuah kejadian yang dilakukan oleh user. Ada beberapa cara untuk menangkap/mendengarkan event diantaranya
+>
+> - Event Hendler
+>   - Inline attribute
+>   - Element method
+> - addEventListener()
+
+#### Inline Attribute
+
+> &nbsp;&nbsp;&nbsp;&nbsp;Penggunaan Inline attribute bisa dengan cara menambahkan langsung ke atribute dari element html
+>
+> code:
+>
+> ```html
+> <h1 id="judul" onclick="style='background-color : red'">Hello World</h1>
+> ```
+>
+> result sebelum dan sesudah di klik:
+>
+> ![sebelum-onclik](assets/images/sebelum-onclick.png "sebelum onclik")
+>
+> ![after-onclick](assets/images/after-onclick.png "after onclick")
+
+#### Element Method
+
+> &nbsp;&nbsp;&nbsp;&nbsp;Penggunaan event pada method bisa dengan cara menambahkan salah satu property event `onclick` dengan disertai function yang akan dijalankan.
+>
+> code :
+>
+> ```js
+> const getP3 = document.getElementsByClassName("p3")[0];
+> getP3.onclick = () => {
+>   getP3.style.color = "orange";
+> };
+> ```
+>
+> result sebelum dan sesudah di klik:
+>
+> ![sebelum-mehtod](assets/images/before-using-method.png "before using method onclick")
+>
+> ![setelah-method](assets/images/after-using-method.png "after using method onclick")
+
+#### AddEventListener
+
+> &nbsp;&nbsp;&nbsp;&nbsp;Hasil dari code akan sama saja namun lebih disarankan menggunakan `.addEventListener` dibandingkan `event hendler`
+>
+> code:
+>
+> ```js
+> const getP3 = document.getElementsByClassName("p3")[0];
+> getP3.addEventListener("click", () => {
+>   getP3.style.color = "orange";
+> });
+> ```
