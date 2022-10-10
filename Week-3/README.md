@@ -289,5 +289,5 @@
 >
 > web storage menyediakan 2 cara untuk menyimpan data ke local dari sisi user:
 >
-> `window.localStorage` - menyimpan data tanpa ada batasan waktu
-> `window.sessionStorage` - menyimpan data sementara di sesi tertentu dan akan berubah ketika berpindah atau di refresh
+> - `window.localStorage` - menyimpan data tanpa ada batasan waktu
+> - `window.sessionStorage` - menyimpan data sementara di sesi tertentu dan akan berubah ketika berpindah atau di refresh
