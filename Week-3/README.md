@@ -4,7 +4,7 @@
 
 ## Array Multidimensional
 
-> &nbsp;&nbsp;&nbsp;&nbsp;Array pada javascript adalah type data non-primitive yang mampu menampung data yang sama maupun yang berbeda. Array multidimensional adalah array yang bersarang yang artinya ada array didalam array, berikut contoh array biasa dan array bersarang
+> &nbsp;&nbsp;&nbsp;&nbsp;Array pada javascript adalah type data non-primitive yang mampu menampung data yang sama maupun yang berbeda. Array multidimensional adalah array yang bersarang yang artinya ada array didalam array.
 
 #### Mengakses array
 
